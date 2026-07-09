@@ -1,11 +1,11 @@
 import React from 'react'
 import NavigationBar from './NavigationBar'
 
-const SearchBook = () => {
+const DeleteBook = () => {
   return (
     <div>
         <NavigationBar/>
-        <div className="container">
+         <div className="container">
     <div className="row">
         <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div className="row g-3">
@@ -14,7 +14,7 @@ const SearchBook = () => {
                 <input type="text" className="form-control" />
                 </div>
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <button className="btn btn-dark text-light">SEARCH</button>
+                    <button className="btn btn-dark text-light">DELETE</button>
                 </div>
             </div>
         </div>
@@ -24,4 +24,4 @@ const SearchBook = () => {
   )
 }
 
-export default SearchBook
+export default DeleteBook

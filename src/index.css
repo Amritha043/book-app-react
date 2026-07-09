@@ -1,7 +1,31 @@
 .container{
-  border: 2px solid goldenrod;
+  border: 3px solid #8b6b3f;
   border-radius: 15px;
   padding: 40px;
   margin-top: 30px;
-  background-color: rgb(223, 223, 223);
+ background: #fffdf8;
+}
+
+body{
+  background: linear-gradient(135deg, #f7f3e9, #e8dcc2);
+}
+.btn-dark {
+    background: linear-gradient(135deg, #5d4037, #8b6b3f);
+    border: none;
+    border-radius: 10px;
+    padding: 12px 35px;
+    font-weight: 600;
+    letter-spacing: .5px;
+   
+}
+.library-navbar {
+    background: linear-gradient(90deg, #3e2723, #5d4037);
+    padding: 12px 20px;
+}
+.library-navbar .nav-link {
+    color: white;
+    font-weight: 600;
+    margin-left: 15px;
+    transition: 0.3s;
+    position: relative;
 }
